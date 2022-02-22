@@ -520,7 +520,7 @@ function hmrAcceptRun(bundle, id) {
 
 },{}],"6rimH":[function(require,module,exports) {
 var _emojiButton = require("@joeattardi/emoji-button");
-const socket = io('http://localhost:8000');
+const socket = io('https://weonchat.herokuapp.com/');
 const form = document.getElementById('send-container');
 const messageInp = document.getElementById('messageInp');
 const messagecontainer = document.querySelector('.message-container');
